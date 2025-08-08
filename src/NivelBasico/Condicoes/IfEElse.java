@@ -1,11 +1,11 @@
-package Condicoes;
+package NivelBasico.Condicoes;
 
 public class IfEElse {
 
     public static void main(String[] args) {
 
         /*
-        * IF e Else - Condicoes
+        * IF e Else - NivelBasico.Condicoes
         * Else If
         * Obejetivo: Tornar o Tony Tony Chopper um medico de acordo com o numero de remedios
         * */

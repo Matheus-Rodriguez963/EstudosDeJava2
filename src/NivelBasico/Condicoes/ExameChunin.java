@@ -1,4 +1,4 @@
-package Condicoes;
+package NivelBasico.Condicoes;
 
 // Exame Chunin: Verificando se o ninja tem idade suficiente para competir
 import java.util.Scanner;
