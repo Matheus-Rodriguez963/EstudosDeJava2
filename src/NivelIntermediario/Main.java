@@ -33,6 +33,15 @@ public class Main {
         Sakura.idade = 17;
         Sakura.AtivarCura();
 
+        // Cruandi ninja Hinata Hyuuga
+
+        Hyuuga Hinata = new Hyuuga();
+
+        Hinata.nome = "Hinata Hyuuga";
+        Hinata.Aldeia = "Aldeia da Folha";
+        Hinata.idade = 18;
+        Hinata.AtivarByakugan();
+
 
 
 
