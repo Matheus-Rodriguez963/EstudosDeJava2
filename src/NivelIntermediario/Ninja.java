@@ -12,13 +12,10 @@ public class Ninja {
     // Cria um metodo publico personalizado
 
     /*
-    * O metodo VOID nao retorna valorr nenhum!
+    * O metodo VOID nao retorna valor nenhum!
     * */
 
-    public void SharinganAtivado() {
 
-        System.out.println( "Sharringan Ativado!!");
-    }
 
     /*
     * Metodo String vai ter que retornar uma String
