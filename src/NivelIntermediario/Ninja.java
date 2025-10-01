@@ -1,12 +1,11 @@
 package NivelIntermediario;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class Ninja {
 
     String nome;
     String Aldeia;
     int idade;
+    String habilidadeEspecial;
 
 
     // Cria um metodo publico personalizado
@@ -33,5 +32,13 @@ public class Ninja {
     public int anosParaSeTornarHokage(int idadeMinimaParaSerHokage) {
         return idadeMinimaParaSerHokage - idade;
     }
+    
+    /*
+    * Habilidade Especial Geral para todos os ninjas
+    * */
 
+    public void habilidadeEspecial(){
+        System.out.println("Meu nome e " + nome + " e tenho a habilidade especial de " + habilidadeEspecial);
+    }
 }
+

@@ -12,6 +12,7 @@ public class Main {
         Naruto.nome = "Naruto Uzumaki";
         Naruto.Aldeia = "aldeia da Folha";
         Naruto.idade = 17;
+        Naruto.habilidadeEspecial = "KageBushin no Jutsu";
         Naruto.ModoSabioAtivado();
 
 
@@ -22,6 +23,7 @@ public class Main {
         Sasuke.nome = "Sasuke uchiha";
         Sasuke.Aldeia = "aldeia da Folha";
         Sasuke.idade = 18;
+        Sasuke.habilidadeEspecial = "Sharingan";
 
 
         // Criar ninja Sakura Haruno
@@ -33,7 +35,7 @@ public class Main {
         Sakura.idade = 17;
         Sakura.AtivarCura();
 
-        // Cruandi ninja Hinata Hyuuga
+        // Criando ninja Hinata Hyuuga
 
         Hyuuga Hinata = new Hyuuga();
 
@@ -42,13 +44,24 @@ public class Main {
         Hinata.idade = 18;
         Hinata.AtivarByakugan();
 
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Uzumaki";
+        Boruto.Aldeia = "Aldeia da Folha";
+        Boruto.idade = 9;
+
+        //Criando ninja Boruto
+        Boruto.AtivarOKarma();
+        Boruto.AtivarJogan();
+        Boruto.ModoSabioAtivado();
 
 
 
-        //Aplicando metodos os meus objetos
+        //Aplicando metodos os meus objetos Boruto
         Sasuke.SharinganAtivado();
         String chamandoMetodo =  Sasuke.euSouUmNinja();
         System.out.println(chamandoMetodo);
+
+
 
 
         //Criando tempo para um ninja se tornar um hokage
