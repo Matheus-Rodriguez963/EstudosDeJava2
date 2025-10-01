@@ -1,11 +1,10 @@
 package NivelIntermediario;
 
-
 public class Main {
 
     public static void main(String[] args) {
 
-        //Criar o ninja Naruto - Naruto e um objeto
+        // Criar o ninja Naruto - Naruto e um objeto
 
         Uzumaki Naruto = new Uzumaki();
 
@@ -15,7 +14,6 @@ public class Main {
         Naruto.habilidadeEspecial = "KageBushin no Jutsu";
         Naruto.ModoSabioAtivado();
 
-
         // Criar ninja sasuke - sasuke e um objeto
 
         Uchiha Sasuke = new Uchiha();
@@ -24,7 +22,6 @@ public class Main {
         Sasuke.Aldeia = "aldeia da Folha";
         Sasuke.idade = 18;
         Sasuke.habilidadeEspecial = "Sharingan";
-
 
         // Criar ninja Sakura Haruno
 
@@ -49,27 +46,34 @@ public class Main {
         Boruto.Aldeia = "Aldeia da Folha";
         Boruto.idade = 9;
 
-        //Criando ninja Boruto
+        // Criando ninja Boruto
         Boruto.AtivarOKarma();
         Boruto.AtivarJogan();
         Boruto.ModoSabioAtivado();
 
-
-
-        //Aplicando metodos os meus objetos Boruto
+        // Aplicando metodos os meus objetos Boruto
         Sasuke.SharinganAtivado();
-        String chamandoMetodo =  Sasuke.euSouUmNinja();
+        String chamandoMetodo = Sasuke.euSouUmNinja();
         System.out.println(chamandoMetodo);
 
-
-
-
-        //Criando tempo para um ninja se tornar um hokage
+        // Criando tempo para um ninja se tornar um hokage
 
         int quantoTempoFalta = Sasuke.anosParaSeTornarHokage(70);
-        System.out.println( "Voce tem: " + Sasuke.idade + " entao falta no minimo: " + quantoTempoFalta + "  anos para voce se tornar Hokage");
+        System.out.println("Voce tem: " + Sasuke.idade + " entao falta no minimo: " + quantoTempoFalta
+                + "  anos para voce se tornar Hokage");
 
+        //////////////////////////////////////////////////////////////
+        ///// CRIANDO UM HOKAGE /////////////////////////////////////
+        //////////////////////////////////////////////////////////////
 
+        // Criando um hokage utilizando o construtor com argumentos
+        Hokages Hashirama = new Hokages("Hashirama Senju", 70, true);
+
+        Hokages Tobirama = new Hokages("Tobirama Senju", 30, true);
+
+        Hokages Hiruzen = new Hokages("Hiruzen Sarutobi", 40, true);
+
+        Hokages Minato = new Hokages("Minato Namikaze", 32, false);
 
     }
 }
